@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+body .bg-primary {
+    background-color: #ff2241!important;
+}
+.btn-primary {    
+    background-color: #ff2241;
+    border-color: #ff2241;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #d1152f;
+    border-color: #d1152f;
+}
+.card-top.container-fluid {
+    padding: 21px 15px 15px 15px;
+}
+.homepageBanner {
+    object-fit: cover;
+    height: 350px;
+    overflow: hidden;
+}
+a,
+a:hover {
+    color: #d1152f;
+    text-decoration: underline;
+}
+.navbar-brand a {
+    color:#fff;
+    text-decoration: none;
+}
+.navbar-brand {
+    padding-left:15px;
+}
+.relative {
+    position: relative;
+    margin-top: 5px;
+}
+span.fas.fa-search.search-icon {
+    position: absolute;
+    z-index: 10;
+    right: 15px;
+    top: 10px;
+    color: #ff2241;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    box-shadow: 0 0 0 0.25rem rgb(255 34 65 / 25%);
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #ff2241;
+    border-color: #ff2241;
+    box-shadow: 0 0 0 0.25rem rgb(255 34 65 / 25%);
+}
+.card-table {
+    margin-top: 100px;
+}
+.card-top .item a:hover {
+    color: #ff2241 !important;
+}
